@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: tool
+
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:tooldb}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASS:postgres}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+
+  mail:
+    host: ${MAIL_HOST:smtp.gmail.com}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USER:your@email.com}
+    password: ${MAIL_PASS:yourpassword}
+
+server:
+  port: 8080
+
+jwt:
+  secret: ${JWT_SECRET:mysecretkey123456789012345678901234567890}
+  expiration: 86400000
+
+  ai:
+    service:
+      url: ${AI_SERVICE_URL:http://localhost:5000}
