@@ -13,7 +13,7 @@
 | Java Developer 2 | _Madhushree B R_ | Java Developer 2 |
 | AI Developer 1 | _Likitha T C_ | AI Developer 1 |
 | AI Developer 2 | _Pachipala Nagendra Reddy_ | AI Developer 2 |
-| Security Reviewer | Samhita BG | Security Reviewer |
+| Security Reviewer | Samhita B G | Security Reviewer |
 
 ---
 
