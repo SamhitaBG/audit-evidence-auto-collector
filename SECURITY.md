@@ -9,11 +9,11 @@
 
 | Role | Name | Sign-off |
 |---|---|---|
-| Java Developer 1 | _(name)_ | [ ] |
-| Java Developer 2 | _(name)_ | [ ] |
-| AI Developer 1 | _(name)_ | [ ] |
-| AI Developer 2 | _(name)_ | [ ] |
-| Security Reviewer | Samhita | [ ] |
+| Java Developer 1 | _Nisha C_ | Java Developer 1 |
+| Java Developer 2 | _Madhushree B R_ | Java Developer 2 |
+| AI Developer 1 | _Likitha T C_ | AI Developer 1 |
+| AI Developer 2 | _Pachipala Nagendra Reddy_ | AI Developer 2 |
+| Security Reviewer | Samhita BG | Security Reviewer |
 
 ---
 
