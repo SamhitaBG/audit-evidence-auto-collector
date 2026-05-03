@@ -1,7 +1,7 @@
 # SECURITY.md — Tool-90: Audit Evidence Auto-Collector
 
-**Capstone Project | Sprint: 14 April – 9 May 2026**
-**Security Reviewer:** Samhita
+**MVP Project | Sprint: 14 April – 9 May 2026**
+**Security Reviewer:** Samhita B G
 
 ---
 
