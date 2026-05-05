@@ -71,11 +71,11 @@ PostgreSQL (port 5432)    Redis (port 6379)
 | Test | Expected | Result |
 |---|---|---|
 | Unauthenticated request to `/api/evidence` | 4xx Access Denied | ✅ PASS — returns 403 Forbidden (endpoint protected) |
-| Invalid JWT token | 401 Unauthorized | ✅ PASS |
-| Expired JWT token | 401 Unauthorized | ✅ PASS |
-| Valid JWT grants access | 200 OK | ✅ PASS |
-| `/api/auth/register` accessible without token | 200 OK | ✅ PASS |
-| `/api/auth/login` accessible without token | 200 OK | ✅ PASS |
+| Invalid JWT token | 401 Unauthorized | Pending |
+| Expired JWT token | 401 Unauthorized | Pending |
+| Valid JWT grants access | 200 OK | Pending |
+| `/api/auth/register` accessible without token | 200 OK | Pending |
+| `/api/auth/login` accessible without token | 200 OK | Pending |
 
 ### 3.2 Input Validation Tests
 
