@@ -84,7 +84,7 @@ PostgreSQL (port 5432)    Redis (port 6379)
 | POST with empty `title` field | 400 Bad Request | ✅ PASS |
 | POST with null `status` field | 400 Bad Request | ✅ PASS |
 | SQL injection string in query param (`' OR 1=1 --`) | Rejected by JPA | ✅ PASS |
-| Prompt injection attempt in AI describe endpoint | 400 Bad Request | ✅ PASS |
+| Prompt injection attempt in AI describe endpoint | 400 Bad Request |Not Verified |
 
 ### 3.3 Authorization Tests
 
